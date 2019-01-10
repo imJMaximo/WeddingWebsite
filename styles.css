@@ -1,0 +1,185 @@
+html, body{
+  /* The image used */
+  background-image: url("bg.jpg");
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-right: 20px;
+  float: left;
+  position: absolute;
+}
+
+
+/*added code*/
+.menu-bar{
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  height: 85px;
+  width: 100%
+}
+.home-button{
+  background-color: white;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: "Oswald";
+    font-weight: 250;
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    cursor: pointer;
+    border: 3px solid white;
+     -webkit-transition: all 0.3s ease-out;  
+          transition: all 0.3s ease-out;
+}
+.story-button{
+  background-color: white;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: "Oswald";
+    font-weight: 250;
+    position: absolute;
+    top: 15px;
+    left: 410px;
+    cursor: pointer;
+    border: 3px solid white;
+     -webkit-transition: all 0.3s ease-out;  
+          transition: all 0.3s ease-out;
+}
+.gallery-button{
+  background-color: white;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: "Oswald";
+    font-weight: 250;
+    position: absolute;
+    top: 15px;
+    left: 495px;
+    cursor: pointer;
+    border: 3px solid white;
+     -webkit-transition: all 0.3s ease-out;  
+          transition: all 0.3s ease-out;
+}
+.rsvp-button{
+  background-color: white;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: "Oswald";
+    font-weight: 250;
+    position: absolute;
+    top: 15px;
+    left: 563px;
+    cursor: pointer;
+    border: 3px solid white;
+     -webkit-transition: all 0.3s ease-out;  
+          transition: all 0.3s ease-out;
+}
+.home-button:hover{
+    background-color: #008FCC;
+    color: white;
+    border: 2px solid #26657F;
+      -webkit-animation: myanim 3s infinite; 
+          animation: myanim 3 s infinite;
+}
+.story-button:hover{
+    background-color: #008FCC;
+    color: white;
+    border: 2px solid #26657F;
+      -webkit-animation: myanim 3s infinite; 
+          animation: myanim 3 s infinite;
+}
+.gallery-button:hover{
+    background-color: #008FCC;
+    color: white;
+    border: 2px solid #26657F;
+      -webkit-animation: myanim 3s infinite; 
+          animation: myanim 3 s infinite;
+}
+.rsvp-button:hover{
+    background-color: #008FCC;
+    color: white;
+    border: 2px solid #26657F;
+      -webkit-animation: myanim 3s infinite; 
+          animation: myanim 3 s infinite;
+}
+
+.RSVP-box{
+	position: relative;
+}
+
+.box{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: violet;
+    border: 2px solid black;
+}
+
+form{
+	padding: 20px;
+	margin: 10px;
+}
+
+.rsvp-title{
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	font-family: 'Charmonman', cursive;
+	font color: #E656E8;
+
+}
+.button{
+    background-color: #F3C9FF;
+    color:black;
+    border-radius: 15%;
+  	height: 40px;
+  	width: 80px;
+  	margin: 10px;
+  	right: 450px;	
+    font-family: "Arial";
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+ 	
+  }
+
+.button:hover{
+    background-color: #E89990;
+    color: white;
+    border: 5px solid black;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    animation: bounce .6s;
+}
+
+
+  @keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
