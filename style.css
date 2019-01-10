@@ -1,9 +1,30 @@
+html, body{
+  /* The image used */
+  background-image: url("wedding.jpg");
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .header{
   width: 100%;
   background-color: white;
   overflow: hidden;
   height: 85px;
+}
+
+img{
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-right: 20px;
+  float: left;
+  position: absolute;
 }
 
 .home-button{
